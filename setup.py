@@ -5,7 +5,7 @@ def readme():
         return f.read()
 
 setup(name='py_pwned',
-      version='0.1',
+      version='0.3',
       description='Python3 Have I been Pwned checker',
       long_description=readme(),
       url='https://bitbucket.org/tvdsluijs/py_pwned',
@@ -22,7 +22,6 @@ setup(name='py_pwned',
       packages=['py_pwned'],
       install_requires=[
           'cfscrape',
-          'getpass',
           'validate_email',
           'hashlib',
       ],

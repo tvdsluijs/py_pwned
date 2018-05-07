@@ -21,21 +21,15 @@ How do I get set up?
 What packages does this script uses
 -----------------------------------
 
--  tableprint
--  progress
 -  cfscrape
+-  validate\_email
+-  hashlib
 
 You can also install them by hand
 
--  pip install progress
--  pip install tableprint
 -  pip install cfscrape
-
-OR
-
--  pip3 install tableprint
--  pip3 install progress
--  pip3 install cfscrape
+-  pip install validate\_email
+-  pip install hashlib
 
 How to use
 ----------

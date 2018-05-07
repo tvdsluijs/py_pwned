@@ -14,21 +14,15 @@ The API allows the list of pwned accounts (email addresses and usernames) to be 
 
 ## What packages does this script uses
 
-- tableprint
-- progress
 - cfscrape
+- validate_email
+- hashlib
 
 You can also install them by hand
 
-- pip install progress
-- pip install tableprint
 - pip install cfscrape
-
-OR
-
-- pip3 install tableprint
-- pip3 install progress
-- pip3 install cfscrape
+- pip install validate_email
+- pip install hashlib
 
 ## How to use
 
